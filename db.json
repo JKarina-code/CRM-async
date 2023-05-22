@@ -1,11 +1,18 @@
 {
   "clients": [
     {
-      "id": 1,
       "name": "Jymma Mogollon",
       "email": "jkmogollon.cp@gmail.com",
-      "telephone": 7151322,
-      "company": "Rixoth"
+      "telephone": "7151322",
+      "company": "Rixoth",
+      "id": 1
+    },
+    {
+      "name": "Gustavo",
+      "email": "Gustavo16@hotmail.com",
+      "telephone": "5963232",
+      "company": "Zulma",
+      "id": 2
     }
   ]
 }
