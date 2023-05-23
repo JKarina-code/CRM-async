@@ -33,3 +33,7 @@ export function printAlert(message, type) {
     }, 3000);
   }
 }
+
+export function validateObj(obj) {
+  return !Object.values(obj).every((element) => element !== "");
+}

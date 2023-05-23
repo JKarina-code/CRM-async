@@ -1,4 +1,5 @@
 import { getClients, deleteClient } from "./API.js";
+
 (function () {
   const listClients = document.querySelector("#list-clients");
   listClients.addEventListener("click", confirmDelete);

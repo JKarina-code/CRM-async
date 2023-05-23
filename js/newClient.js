@@ -1,8 +1,7 @@
-import { printAlert } from "./functions.js";
+import { printAlert, validateObj } from "./functions.js";
 import { newClient } from "./API.js";
 (function () {
-  const form = document.querySelector("#formNewClient");
-
+  const form = document.querySelector("#formClient");
   form.addEventListener("submit", validateClient);
 
   function validateClient(e) {
@@ -21,16 +20,12 @@ import { newClient } from "./API.js";
     };
 
     if (validateObj(client)) {
-      printAlert(" All fields are required", "error");
+      printAlert("All fields are required", "error");
       return;
     }
-
     printAlert("Client added successfully");
-
     newClient(client);
   }
 
-  function validateObj(obj) {
-    return !Object.values(obj).every((input) => input !== "");
-  }
+
 })();

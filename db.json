@@ -1,25 +1,25 @@
 {
   "clients": [
     {
-      "name": "Gustavo",
-      "email": "Gustavo16@hotmail.com",
-      "telephone": "5963232",
-      "company": "Zulma",
-      "id": 2
-    },
-    {
-      "name": "Lorena",
-      "email": "lore5627@hotmail.com",
-      "telephone": "56633323",
-      "company": "Flowers Lorena",
-      "id": 3
-    },
-    {
       "name": "Carmen",
       "email": "carmen_6@hotmail.com",
       "telephone": "5865566",
-      "company": "jewelery Carmen",
+      "company": "Jewelery Carmen",
       "id": 4
+    },
+    {
+      "name": "Jymma",
+      "email": "jymma16@hotmail.com",
+      "telephone": "5656545",
+      "company": "R&J",
+      "id": 6
+    },
+    {
+      "name": "Rosa",
+      "email": "rosi.cp@gmail.com",
+      "telephone": "66652563",
+      "company": "Rosi Style",
+      "id": 7
     }
   ]
 }
